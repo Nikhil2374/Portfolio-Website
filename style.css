@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(2, 21, 42);
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 21px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: #b852f4;
+    font-size: 1.04rem;
+}
+
+
+.left {
+    font-size: 1rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.firstsection div> {
+    width: 30%;
+}
+
+.firstsection .leftsection {
+    font-size: 2rem;
+
+}
+
+.firstsection .rightsection img {
+    width: 550px;
+
+
+}
+
+.purple {
+    color: #b852f4;
+}
+
+#element {
+    color: #b852f4;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: #d196f3;
+    height: 1px;
+    margin: 40px 80px;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    color: rgb(239, 234, 247);
+}
+
+.textgrey {
+    color: rgb(77, 70, 80);
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 20px;
+    display: flex;
+}
+
+.secondsection .verticle {
+    height: 91px;
+    width: 1px;
+    background-color: white;
+    margin: 0 200px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 70px;
+    width: 150px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 15px
+}
+
+footer {
+    background-color: #b75ee3;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+.zerosection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 100px;
+}
+
+.zerosection div> {
+    width: 30%;
+}
+
+
+.zerosection .leftsection {
+
+
+    padding-right: 10px;
+    /* Space between the text and the image */
+}
+
+.zerosection .rightsection {
+    flex-shrink: 0;
+}
+
+.zerosection .rightsection img.pg {
+    max-width: 320px;
+}
+
+.zerosection h1 {
+    font-size: 2rem;
+    color: rgb(239, 234, 247);
+}
+
+#skills {
+    text-align: center;
+    margin: 250px 100px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #eeaefb;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#contact {
+    padding: 20px;
+    margin: 150px 0;
+    background-color: rgb(33, 37, 48);
+    border-radius: 20px;
+}
